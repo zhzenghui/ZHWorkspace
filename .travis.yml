@@ -4,3 +4,5 @@ language: objective-c
 
 xcode_workspace: ZHWorkspace.xcworkspace
 xcode_scheme: MySocially 
+
+xcodebuild -workspace {workspace}.xcworkspace -scheme {scheme} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
